@@ -1,0 +1,301 @@
+Index.html
+
+<div class="first">
+
+
+<div class="bold">
+    <h2>Olx</h2>
+</div>
+
+<div>
+    <h2 > <i class="fa-solid fa-car tree"></i> Motors</h2>
+
+</div>
+
+<div>
+    <h2> <i class="fa-solid fa-gopuram eert"></i> Property</h2>
+
+</div>
+</div>
+
+
+
+<div class="p7">
+
+
+<div class="dropdown-wrapper">
+    <i class="fa-solid fa-location-dot dot "></i><input type="text" class="input-box" placeholder="Select location" readonly> 
+    <i class="fas fa-chevron-down arrow-icon icon jkh" onclick="print()"></i>
+    <div class="location-list" id="para">
+      <div  class="location-item uuu"> <i class="fa-solid fa-location-dot green "></i> Azad Kashmir, Pakistan </div>
+      <div class="location-item"> <i class="fa-solid fa-location-dot green  "></i> Azad Kashmir, Pakistan</div>
+      <div class="location-item"> <i class="fa-solid fa-location-dot green  "></i> Azad Kashmir, Pakistan</div>
+      <div class="location-item"> <i class="fa-solid fa-location-dot green  "> </i> Azad Kashmir, Pakistan</div>
+      <div class="location-item"> <i class="fa-solid fa-location-dot green  "> </i> Azad Kashmir, Pakistan</div>
+      <div class="location-item"> <i class="fa-solid fa-location-dot green  "> </i> Azad Kashmir, Pakistan</div>
+      <div class="location-item"> <i class="fa-solid fa-location-dot green  "> </i> Azad Kashmir, Pakistan</div>
+
+
+
+    </div>
+  </div>
+
+  <div class="p8">
+    <input placeholder="Find cars, mobile phones and more..." type="text" name="" id="">
+    <i class="fa-solid fa-magnifying-glass glass"></i>
+<a class="anchor" href="">Login</a> 
+<a class="ancho" href="">+SELL</a>
+  </div>
+
+
+  <div>
+  </div>
+</div>
+
+
+<div class="second">
+    <h3>All Categories <i class="fas fa-chevron-down arrow"></i></h3>
+   <a href="">Mobile Phones</a>
+   <a href="">Cars</a>
+   <a href="">Motorcycles</a>
+   <a href="">Houses</a>
+   <a href="">Video-Audio</a>
+   <a href="">Tablets</a>
+   <a href="">Land and Plots</a>
+</div>
+
+<div class="image">
+    <img src="https://images.olx.com.pk/thumbnails/527654309-800x600.webp" alt="">
+</div>
+
+Style.CSS
+
+.first{
+
+    display: flex;
+    gap: 30px;
+ }
+
+
+ .tree{
+    font-size: 15px;
+    background-color: whitesmoke;
+    border-radius: 40%;
+    height: 20px;
+    width: 20px;
+   padding-top: 5px;
+   padding-left: 5px;
+    
+    
+
+ }
+
+ .eert{
+    font-size: 15px;
+    background-color: whitesmoke;
+    border-radius: 40%;
+    height: 20px;
+    width: 20px;
+   padding-top: 5px;
+   padding-left: 5px;
+
+ }
+
+
+
+ .white{
+
+position: relative;
+right: 30px;
+
+ }
+
+
+
+ .hire{
+    position: relative;
+    left: 20px;
+   
+ }
+
+ .dropdown-wrapper {
+    position: relative;
+    width: 250px;
+  }
+
+  .input-box {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 20px;
+  }
+
+  .arrow-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #555;
+  }
+
+  .location-list {
+    display: none;
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white; /* Background that covers below content */
+z-index: 1000;
+  }
+
+  .location-item {
+    padding: 10px;
+    
+  }
+
+  .location-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  .dot{
+    position: relative;
+    top: 28px;
+    padding-left: 11px;
+  }
+
+  .jkh{
+    padding-top: 20px;
+  }
+
+  .uuu{
+    color: blue;
+  }
+
+  input::placeholder{
+    text-align: center;
+  }
+  input{
+    text-align: center;
+  }
+
+  .p7{
+    display: flex;
+    gap: 20px;
+
+  }
+
+  .p8{
+    position: relative;
+    top: 13px;
+    display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      border-radius: 8px;
+      flex-wrap: nowrap;
+  }
+
+  .p8 input{
+    height: 30px;
+    width: 340px;
+    text-align: start;
+    position: relative;
+    top: -3px;
+  }
+
+ .p8  input::placeholder{
+
+    text-align: start;
+
+  
+  }
+
+  .glass{
+    background-color: gray;
+    width: 10px;
+    height: 26px;
+    position: relative;
+    right: 40px;
+    padding-top: 10px;
+    padding-right: 17px;
+    top: -3px;
+    padding-left: 10px;
+
+  }
+
+
+  .anchor{
+    position: relative;
+    right: 30px;
+    color: darkslategrey;
+    text-decoration: none;
+
+  }
+
+
+  .ancho{
+    position: relative;
+    right: 30px;
+    text-decoration: none;
+    border: 2px solid blue;
+    width: 60px;
+    text-align: center;
+    border-radius: 20px;
+    color: darkslategrey;
+
+  }
+
+  
+
+
+  .second{
+    display: flex;
+    gap: 20px;
+    
+  }
+
+  .second a{
+    position: relative;
+    top: 25px;
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+  }
+
+
+  .image img{
+    width: 760px;
+  }
+  
+
+  
+App.JS
+
+function print(){
+
+var getPara =document.getElementById("para")
+getPara.style.display =getPara.style.display== "none" ? "block" : "none"
+
+document.querySelectorAll('.location-item').forEach(item => {
+  item.addEventListener('click', function () {
+    document.querySelector('.input-box').value = this.textContent;
+    document.getElementById("locationList").style.display = "none";
+  });
+});
+
+
+}
+
+
+
+
+
+
+
+
+
+
