@@ -384,6 +384,10 @@ alt="">
     <br>
     <a class="anc" href="">3 hours ago</a>
 
+
+  <button id="backToTop" > <i class="fa-solid fa-arrow-up"></i>  Back to top</button>
+
+
 </div>
 </div>
 
@@ -839,6 +843,24 @@ height: 260px;
 }
     
 
+ #backToTop {
+    font-size: 10px;
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+  display: none;
+  position: fixed;
+  top: 20px; /* screen ke top se 20px */
+  left: 50%; /* horizontal center */
+  transform: translateX(-50%); /* exact center align karne ke liye */
+  width: 100px;
+  height: 30px
+  
+
+}
+
 
 
 
@@ -862,6 +884,23 @@ document.querySelectorAll('.location-item').forEach(item => {
 
 
 }
+
+
+
+
+const backToTopBtn = document.getElementById("backToTop");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 500) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    });
+
+   backToTopBtn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 
 
 
