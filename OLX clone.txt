@@ -4,15 +4,15 @@ Index.html
 
 
 <div class="bold">
-    <h2>Olx</h2>
+    <img src="data:image/png;base64,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" alt="">
 </div>
 
-<div>
+<div class="mot">
     <h2 > <i class="fa-solid fa-car tree"></i> Motors</h2>
 
 </div>
 
-<div>
+<div class="pro">
     <h2> <i class="fa-solid fa-gopuram eert"></i> Property</h2>
 
 </div>
@@ -384,12 +384,108 @@ alt="">
     <br>
     <a class="anc" href="">3 hours ago</a>
 
+</div>
+</div>
 
   <button id="backToTop" > <i class="fa-solid fa-arrow-up"></i>  Back to top</button>
 
+  <div class="tiger">
+    <img src="https://www.olx.com.pk/assets/olxMobileApp.f5579f77e849b600ad60857e46165516.webp" alt="">
+    <b><p class="try">TRY THE OLX APP</p></b>
+
+          <div class="vertical-line"></div>
+
+          <p class="get">GET YOUR APP TODAY</p>
+
+          <div class="new">
+          <img class="app" src="./app store.PNG" alt="">
+          <img class="app" src="./google play.PNG" alt="">
+          <img class="app" src="./app galary.PNG" alt="">
+</div>
+    
+  </div>
+
+  <div class="buy">
+        <p>Buy, Sell and find just about anything using <br> the app on your mobile</p>
+
+  </div>
+
+<div class="sala">
+
+    <div class="footer">
+    <h3>Popular Categories</h3>
+    <a href="">Cars</a>
+    <br>
+    <a href="">Flat for rent</a>
+    <br>
+    <a href="">Mobile Phones</a>
+    <br>
+    <a href="">Jobs</a>
+  </div>
+
+
+
+  <div class="foot">
+    <h3>Tranding Searches</h3>
+    <a href="">Bike</a>
+    <br>
+    <a href="">Watches</a>
+    <br>
+    <a href="">Books</a>
+    <br>
+    <a href="">Dogs</a>
+  </div>
+
+
+
+   <div class="foot">
+    <h3>About Us</h3>
+    <a href="">About Dubizzle group</a>
+    <br>
+    <a href="">Olx Block</a>
+    <br>
+    <a href="">Contact Us</a>
+    <br>
+    <a href="">Olx for Business</a>
+  </div>
+
+
+  <div class="foot">
+    <h3>OLX</h3>
+    <a href="">Help</a>
+    <br>
+    <a href="">Site map</a>
+    <br>
+    <a href="">Terms of use</a>
+    <br>
+    <a href="">Private Policy</a>
+  </div>
+
+
+  <div class="papa">
+    <h3>Follow us</h3>
+ <img src="https://www.olx.com.pk/assets/iconTwitter_noinline.6037fa7d9a7b9d6408fb1b3d70524b97.svg" alt="">
+  <img src="https://www.olx.com.pk/assets/iconFacebook_noinline.773db88c5b9ee5aaab365e61cdb750da.svg" alt="">
+  <img src="https://www.olx.com.pk/assets/iconYoutube_noinline.c85bd6801ec83d6a3b498059550bef26.svg" alt="">
+  <img src="https://www.olx.com.pk/assets/iconInstagram_noinline.d7d5811ebc44e03a674c8d0b5ff3f232.svg" alt="">
+    
+  </div>
+
+  
 
 </div>
+
+<div class="father">
+    <img src="./app store.PNG" alt="">
+    <img src="./google play.PNG" alt="">
+    <img class="mother" src="./app galary.PNG" alt="">
+  </div>
+
+<div class="black">
+    <p class="white">Free Classifieds in Pakistan . © 2006-2025 OLX</p>
 </div>
+
+
 
 Style.CSS
 
@@ -398,6 +494,8 @@ Style.CSS
     display: flex;
     gap: 30px;
  }
+
+ 
 
 
  .tree{
@@ -410,6 +508,22 @@ Style.CSS
    padding-left: 5px;
     
     
+
+ }
+
+ .bold img{
+  width: 50px;
+  position: relative;
+  top: 8px;
+  font-size: 30px;
+ }
+
+ .mot h2{
+  font-size: 14px;
+ }
+
+ .pro{
+    font-size: 10px;
 
  }
 
@@ -841,7 +955,7 @@ height: 260px;
     display: flex;
     justify-content: space-between;
 }
-    
+
 
  #backToTop {
     font-size: 10px;
@@ -861,10 +975,172 @@ height: 260px;
 
 }
 
+.tiger{
+  margin-top: 30px;
+  background-color: whitesmoke;
+  display: flex;
+  position: relative;
+  top: 60px;
+  
+  
+}
+
+.tiger img{
+  width: 320px;
+}
+
+.tiger p{
+  position: relative;
+  top: 40px;
+}
+
+.buy{
+text-align: center;
+position: relative;
+bottom: 10px;
+  font-size: 13px;
+}
+
+.vertical-line {
+      width: 2px;         
+      height: 100px;        
+      background-color: gray; 
+      margin: 20px;
+      position: relative;
+      left: 120px;
+    }
+
+    .get{
+      position: relative;
+      left: 130px;
+  margin-bottom: 2px;
+      font-size: 12px;
+      font-weight: bolder;
+    
+    }
+
+
+   .tiger .app{
+     height: 20px;
+     width: 70px;
+     position: relative;
+     top: 70px;
+   
+    }
+
+
+    .try{
+      text-align: center;
+      position: relative;
+      left: 30px;
+    
+    
+    
+    
+    }
+
+
+    .new{
+      display: flex;
+      gap: 10px;
+      position: relative;
+      top: 10px;
+    }
 
 
 
+    .footer a{
+      text-decoration: none;
+      font-size: 10px;
+      color: gray;
+    }
 
+
+    .foot a{
+      text-decoration: none;
+      font-size: 10px;
+      color: gray;
+    }
+
+
+    .papa img{
+      width: 20px;
+      display: inline;
+      position: relative;
+      bottom: 13px;
+      right: 10px;
+    }
+
+    .mother{
+      position: relative;
+    bottom: -1px;
+    }
+
+    .father img{
+      width: 50px;
+     position: relative;
+bottom: 60px;      
+left: 30px;
+    }
+
+    .father{
+      display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  background-color: whitesmoke;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* REMOVE gap-creating positioning */
+  position: static;
+  bottom: auto;
+  margin: 0;
+    }
+
+
+    .sala{
+       background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  height: 120px;
+  /* REMOVE below lines to eliminate gap */
+  position: static; /* OR remove this line entirely */
+  bottom: auto;
+  margin: 0;
+  padding: 0;
+  left: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+    }
+
+    .papa{
+      position: relative;
+      right: 40px;
+    }
+
+
+
+    .black{
+      background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+  height: 50px;
+  align-items: center;
+  padding-right: 20px;
+  margin: 0;
+    }
+
+    .white{
+      position: relative;
+      right: 20px;
+    }
+
+    
+
+    
   
 
   
